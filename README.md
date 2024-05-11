@@ -22,3 +22,5 @@ Niketh T
 Daksh Kasi
 
 ## Prompt of Choice
+
+We wil be choosing the second prompt of the competition.
