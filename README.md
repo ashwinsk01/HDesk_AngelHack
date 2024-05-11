@@ -19,6 +19,6 @@ Submission Repository for AngelHack 2024 Bangalore (hackbangalore)
 Ashwin SK
 Mayur Sannesi
 Niketh T
-Daksh Kasi !
+Daksh Kasi
 
 ## Prompt of Choice
