@@ -14,8 +14,8 @@ def matchmaking():
 
     #Healthcare Infrastructure Development
     HID = {  
-        "Hospital Establishment" : False,
-        "Free Treatment" : True
+        "Hospital Establishment" : ["M2" , False],
+        "Free Treatment" : ["M1", True]
     }
 
     Prob_MinorCat = {
@@ -33,8 +33,8 @@ def matchmaking():
 
     #Street Lighting and Safety Measures
     Electrics = {
-        "Street Lamps Establishment" : False ,
-        "Speed Bump Reflectors" : True
+        "Street Lamps Establishment" : ["L1" , False] ,
+        "Speed Bump Reflectors" : ["L2" , True ]
     }
 
     investorCat = input("enter interested serial : ")
@@ -43,7 +43,7 @@ def matchmaking():
 
     def prob_Chk(cat):
         for key,value in cat.items():
-            if value == True:
+            if value[1] == True:
                 print(key)
             else:
                 pass
