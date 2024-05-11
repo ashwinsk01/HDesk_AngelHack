@@ -54,12 +54,16 @@ def matchmaking():
     def display_Prob(investoraCat) :
         if investoraCat[0] == "a" :
             for i,y in Prob_MajorCat.items():
-                if y[0] == "a1" :
+                if y == "a1" :
                     prob_Chk(HID)
+                else :
+                    pass
         elif investorCat[0] == "b" :
             for i,y in Prob_MajorCat.items():
-                if y[0] == "b1" :
+                if y == "b1" :
                     prob_Chk(Electrics)
+        else :
+            pass
 
 
     display_Prob(investoraCat=investorCat)
