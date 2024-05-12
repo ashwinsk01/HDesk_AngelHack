@@ -69,12 +69,3 @@ def matchmaking():
     display_Prob(investoraCat=investorCat)
 
 matchmaking()
-
-    
-
-        
-     
-            
- 
-
-
