@@ -11,6 +11,8 @@
 
 # Community Driven Problem-Solving Platform
 
+## Project Link: https://apps-service.bravostudio.app/devices/apps/01HXN4CZ5Y183HKPY993KVTZ5E/node/01HXNPSSD0S0CTZVEGQGXNQCNH
+
 ## Spotlight 
 Submission Repository for AngelHack 2024 Bangalore (hackbangalore)
 
@@ -22,36 +24,41 @@ Niketh T
 Daksh Kasi
 
 ## Overview
-This repository contains the source code for a community-driven platform developed during the AngelHack 24-hour hackathon by our team of four. Our application is similar to Reddit in that it allows users to post problems, upvote them, and submit solutions. The platform also facilitates investor interactions, allowing them to identify and fund promising solutions.
+This repository contains the source code for Spotlight, a community-driven platform developed during the AngelHack 24-hour hackathon by Team SGVscERlc2s= [(HelpDesk encoded in base64 :)]. Our application allows users to post problems, upvote them based on urgency and relevance, submit solutions, and engage with investors who can fund promising solutions.
 
 ## Features
-- **Problem Submission:** Users can post problems they are experiencing within their community.
-- **Voting System:** Community members can upvote problems, prioritizing them based on urgency and relevance.
-- **Solution Submission:** Users can submit actionable solutions to highly-ranked problems.
-- **Investor Dashboard:** Investors can view top problems and solutions, providing them with insights for potential funding.
+- **Problem Submission:** Users can post problems they are encountering around their community.
+- **Upvote (spots) System:** Community members vote on problems to prioritize them.
+- **Solution Submission:** Users propose solutions to prioritized problems.
+- **Investor Dashboard:** Investors review top problems and solutions to make funding decisions.
 
-## User Roles
-- **Community Members:** Post and vote on problems, and submit solutions.
-- **Solution Providers:** Focus on creating solutions and gathering community support.
-- **Investors:** Analyze and invest in top-rated solutions.
+## User Segmentation
+- **Community Members:** Engage in posting, voting, and discussing solutions.
+- **Solution Providers:** Develop and submit solutions, interacting with feedback.
+- **Investors:** Evaluate and invest in solutions with high community and expert ratings.
 
 ## Technology Stack
 - **Figma:** Used for UI/UX design and wireframing.
-- **Cohere:** Powers the backend for natural language processing using RAG LLM.
-- **Xano:** Backend-as-a-service for API management and database operations.
-- **Bravo Studio:** Used to convert Figma designs into fully functional prototypes.
-- **Python:** Employed for scripting, training AI models, and automating tests.
+- **Gemma 2B:** Employs lightweight natural language processing capabilities.
+- **Xano:** Manages backend processes, database operations, and API integrations.
+- **Bravo Studio:** Converts Figma designs into functional app prototypes.
+- **Python:** Handles scripting, training models, and running automated tests.
+- **Airtable:** Used as a fast DB with easy operability.
+
+## Reason for Technology Shift
+We initially considered using Cohere for its advanced NLP capabilities. However, due to its resource-intensive nature, we opted for Gemma 2B as a more lightweight alternative. Cohere's integration is still part of our future roadmap when we scale our infrastructure to support more complex NLP tasks.
 
 ## Setup Instructions
 
 ### Prerequisites
-- Figma account for accessing UI designs.
-- Cohere API key for natural language processing features.
-- Xano account for backend operations.
-- Bravo Studio account to work with the mobile app prototype.
+- Figma account for UI designs.
+- Gemma 2B API key for NLP features.
+- Xano and Airtable for backend services.
+- Bravo Studio account for prototype development.
 
 ### Local Development
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/yourusername/project-repo-name.git
    cd project-repo-name
+
